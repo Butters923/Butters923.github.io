@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+</section>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lambda University offers a wide range of courses tailored to meet the demands of an ever-evolving world. Whether you're passionate about education, science, arts, or technology, there's a program designed to help you achieve your goals.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>At the Intermediate level, students can build a strong foundation with courses designed to introduce key concepts in arts, sciences, and commerce.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>The Degree programs provide in-depth knowledge and practical skills in fields such as education, technology, and business, preparing graduates for competitive careers. For advanced learners.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Post-Graduation programs focus on research, innovation, and specialization in disciplines like environmental studies, management, and engineering. Lambda University is dedicated to equipping students with the expertise needed to excel in a globalized world.</p>
+        </div>
+    </div>
+</section>
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lambda University University is equipped with world-class facilities designed to support academic excellence and holistic development. Our modern lecture halls and smart classrooms feature advanced technology to enhance learning experiences. The central library offers an extensive collection of books, journals, and digital resources, while our state-of-the-art laboratories provide hands-on experience in various scientific fields. Students can enjoy a balanced lifestyle with access to sports complexes, recreational areas, and a serene campus green space. Additionally, our on-campus cafeterias and student lounges create a vibrant and collaborative community for learners from diverse backgrounds.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>The Lambda University University library is a hub of knowledge and innovation, offering an extensive collection of books, research papers, and digital resources that support academic growth. Designed to inspire students and faculty, the library features quiet study areas, group workspaces, and access to cutting-edge technology, making it an ideal environment for both individual learning and collaborative research.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lambda University is proud to offer the largest playground in the region, providing ample space for sports, recreational activities, and community events. Whether you're interested in team sports, fitness, or simply relaxing outdoors, our expansive playground caters to a variety of activities, ensuring a healthy and active lifestyle for all students.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Our on-campus dining options focus on providing tasty and healthy food, offering a wide range of nutritious meals to suit different dietary needs. From local Indonesian dishes to international cuisines, the menus are carefully curated to fuel the minds and bodies of our students, with fresh ingredients and balanced meals served daily.</p>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lambda University University is a premier institution dedicated to providing high-quality education that nurtures creativity, innovation, and leadership. Established with the mission to empower students with knowledge and practical skills, we offer a diverse range of programs designed to meet the challenges of a dynamic world.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

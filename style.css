@@ -456,7 +456,3 @@ h3{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-a img {
-    width: 100px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
-  }  

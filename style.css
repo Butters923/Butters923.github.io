@@ -286,15 +286,23 @@ h3{
         font-size: 24px;
     }
 }
-.footer{
+.footer {
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background-color: #333;
+    color: #fff;
 }
-.footer h4{
+.footer h4 {
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+    color: #fff;
+}
+.footer p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #fff;
 }
 .icons .fa-brands{
     color: #f44336;
@@ -331,7 +339,7 @@ h3{
     padding-top: 0;
 }
 .about-col p{
-    padding: 15px 0 25px;
+    padding: 15px 0;
 }
 .red-btn{
     border: 1px solid #f44336;
